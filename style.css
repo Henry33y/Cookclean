@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  min-width: 100%;
+  min-height: 100vh;
+ }
+
+body {
+  background-image: url('https://assets.codepen.io/6060109/ZigZag.png');
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.confirmation{
+  width: 90%;
+  width: 350px;
+  height: 500px;
+  background-color: #fff;
+  margin: 70px 0;
+  box-shadow: 0px 40px 40px -20px #3C7B61;
+  border-radius: 5px;
+  position: relative;
+  z-index: 9;
+}
+
+
+.order-status{
+  width: 90%;
+  width: 350px;
+  height: 550px;
+  background-color: #fff;
+  margin: 70px 0;
+  box-shadow: 0px 40px 40px -20px #3C7B61;
+  border-radius: 5px;
+  position: relative;
+  margin-left: -20px;
+}
+.dishchoice{
+  width: 90%;
+  width: 350px;
+  height: 550px;
+  background-color: #fff;
+  margin: 70px 0;
+  box-shadow: 0px 40px 40px -20px #3C7B61;
+  border-radius: 5px;
+  position: relative;
+  margin-right: -20px;
+}
+
+#close-button{
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+h2, h5, h6, a {
+  font-family: montserrat;
+}
+
+.inner-container {
+  width: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding: 50px 45px;
+}
+
+.inner-container > h2{
+  padding: 14px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+
+.inner-container > p{
+  font-family: ubuntu;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #828282;
+
+}
+
+#food-selection{
+  display: flex;
+  background-color: #F0FFF5;
+  justify-content: space-between;
+  border-radius: 5px;
+  margin: 40px 0 30px;
+}
+.food-name-price{
+  width: 50%;
+  text-align: left;
+  margin-top: 15px;
+}
+
+h5{
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 17px;
+  color: #2F463D;
+  
+}
+
+h6 {
+  font-size: 14px;
+  font-weight: 500;
+  color: #7A8F85;
+
+}
+
+a{
+  width: 53px;
+  font-size: 13px;
+  font-weight: 700;
+  color: #467A66;
+  margin-top: 20px;
+  margin-right: 10px
+
+}
+
+.ready{
+  Width: 255.85px;
+  Height: 50.35px;
+  background-color: #46A67E;
+  box-shadow: 0px 20px 20px rgba(103, 189, 153, 0.2);
+  border-radius: 5px;
+  color: #fff;
+  border: 0;
+  font-size: 15px;
+  font-family: montserrat;
+  font-weight: 800;
+}
+
+.second-dots-ctr{
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  bottom: 6%;
+  transform: translateX(-50%)
+}
+
+#second-leftdot, #second-middledot, #second-rightdot{
+  width: 7.31px;
+  height: 7.05px;
+  border-radius: 50%;
+  background-color: #E0E0E0;
+  margin: 0px auto; 
+}
+
+#second-leftdot {
+   margin-left: -.05px;
+}
+
+#second-middledot {
+  background-color: #67BD99; 
+}
+
+#second-rightdot {
+  margin-right: 0;
+}
+
+.next{
+  Width: 279.85px;
+  Height: 50.35px;
+  background-color: #BDBDBD;
+  box-shadow: 0px 20px 20px rgba(103, 189, 153, 0.2);
+  border-radius: 5px;
+  color: #fff;
+  border: 0;
+  font-size: 15px;
+  font-family: montserrat;
+  font-weight: 800;
+  margin-top: 50px
+}
+
+.first-dots-ctr{
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  bottom: 6%;
+  transform: translateX(-50%)
+}
+
+#first-leftdot, #first-middledot, #first-rightdot{
+  width: 7.31px;
+  height: 7.05px;
+  border-radius: 50%;
+  background-color: #E0E0E0;
+  margin: 0px auto; 
+}
+
+#first-leftdot {
+   margin-left: -.05px;
+   background-color: #67BD99;
+}
+
+#first-rightdot {
+  margin-right: 0;
+}
+
+#burger{
+  Width: 110px;
+}
+
+#delivery-man{
+  width: 110px;
+}
+
+.third-dots-ctr{
+  display: flex;
+  width: 15%;
+  justify-content: space-between;
+  position: absolute;
+  left: 50%;
+  bottom: 6%;
+  transform: translateX(-50%)
+}
+
+#third-leftdot, #third-middledot, #third-rightdot{
+  width: 7.31px;
+  height: 7.05px;
+  border-radius: 50%;
+  background-color: #E0E0E0;
+  margin: 0px auto; 
+}
+
+#third-leftdot {
+   margin-left: -.05px;
+}
+
+#third-rightdot {
+  margin-right: 0;
+  background-color: #67BD99;
+}
+
+.dishchoice, .order-status {
+  display: none;
+  }
+
+
+/* Breakpoint for large devices (laptops/desktops) */
+@media only screen and (min-width: 992px) {
+   .dishchoice, .order-status {
+  display: block;
+  }
